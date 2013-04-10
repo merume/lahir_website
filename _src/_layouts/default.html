@@ -3,21 +3,16 @@
 <head>
 <meta charset="utf-8">
 <title>{{ page.title }}</title>
-<link rel="stylesheet" href="css/jquery.maximage.css">
-<link rel="stylesheet" href="css/style.css">
-
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.cycle.all.js"></script>
-<script src="js/jquery.maximage.min.js"></script>
-<script src="js/script.js"></script>
+{% include default_style.html %}
+{% include default_script.html %}
 
 </head>
 <body>
-  <div id="maximage">
-    <img src="img/bg_image.jpg" alt="">
-  </div>
-
+{% include backgrand_image.html %}
+{% include page_header.html %}
+ 
 {{ content }}
 
+{% include page_footer.html %}
 </body>
 </html>
