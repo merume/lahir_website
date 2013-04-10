@@ -1,8 +1,5 @@
-$(function(){
-  $('img.bgmaximage').maxImage({
-    isBackground: true,
-    overflow: 'auto',
-    verticalAlign:'top'
+$(document).ready(function(){
+  $(function(){
+    $('#maximage').maximage();
   });
 });
-

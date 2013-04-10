@@ -2,13 +2,22 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>Welcome</title>
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="css/jquery.maximage.css">
 <link rel="stylesheet" href="css/style.css">
-<script src="js/lib.js"></script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.cycle.all.js"></script>
 <script src="js/jquery.maximage.min.js"></script>
 <script src="js/script.js"></script>
+
 </head>
 <body>
+  <div id="maximage">
+    <img src="img/bg_image.jpg" alt="">
+  </div>
+
 {{ content }}
+
 </body>
 </html>

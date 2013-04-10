@@ -12,14 +12,13 @@ js:
     script.js:
       min: script.min.js
       files:
-        - model.js
-        - view.js
         - main.js
-    lib.js:
+    jquery.min.js:
       files:
         - lib/jquery.min.js
-        - lib/underscore-min.js
-        - lib/backbone-min.js
     jquery.maximage.min.js:
       files:
         - lib/jquery.maximage.min.js
+    jquery.cycle.all.js:
+      files:
+        - lib/jquery.cycle.all.js
