@@ -1,11 +1,51 @@
+@charset "UTF-8";
 @import 'mixin';
 
+/****************************************************
+ * Reset Sector
+****************************************************/
+h1,h2,h3,h4,h5,h6 { margin: 0; padding: 0;}
+p { margin: 0; padding: 0;}
+img { border-style: none;}
+ul { list-style: none;}
+ol { margin: 0px; padding: 0px; list-style-position: inside;}
+table { border-collapse: collapse; border-spacing: 0; font-size: 1.2em;}
+html, body { _height: 100%; _overflow: auto;}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: "メイリオ","Meiryo",arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+  color: #333333;
+}
 
-
-h1{margin:0;}
+/****************************************************
+ * Page Layout
+****************************************************/
 
 #maincontent{
   width: 1000px;
   margin:0 auto;
+  font-size: 1.2em;
 }
 
+
+
+#footer{
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.6;  /*Firefox, Opera, Chrome, Safari*/
+  filter: alpha(opacity=60);  /*IE8以下*/
+  color: #FFFFFF;
+  border:1px solid #000;
+  position: fixed;
+  bottom:0;  
+  left:0;  
+}
+
+#footer .context{
+  width: 1000px;
+  margin: 2px auto;
+  text-align: center;
+  font-size: 1.1em;
+}

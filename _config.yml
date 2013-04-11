@@ -22,3 +22,6 @@ js:
     jquery.cycle.all.js:
       files:
         - lib/jquery.cycle.all.js
+    fixed.js:
+      files:
+        - lib/fixed.js
