@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 #img-main {
+  width: 550px;
+  height: 300px;
   text-align: center;
-
-  img#logo { position: absolute; width: 500px;}
+  img#logo {width: 500px;}
 }
 
 #info-wrap {
@@ -11,7 +12,7 @@
   height: 160px;
   position: absolute;
   right: 0px;
-  bottom: 30px;
+  bottom: 50px;
   background: url("../img/index/info-bg.png") no-repeat 0 0;
   overflow: hidden;
 

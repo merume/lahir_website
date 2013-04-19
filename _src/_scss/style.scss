@@ -6,7 +6,7 @@
 ****************************************************/
 $base_font_color: #111111;
 $contents_width: 950px;
-$header_height: 90px;
+$header_height: 100px;
 $footer_height: 20px;
 
 h1,h2,h3,h4,h5,h6 { margin: 0; padding: 0;}
@@ -20,7 +20,7 @@ a:active, a:focus{ outline: 0;}
 html, body { _height: 100%; _overflow: auto;}
 body {
   margin: 0;
-  padding: $header_height 0 $footer_height;
+  padding: 0;
   font-size: 10px;
   font-family: "メイリオ","Meiryo",arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
   color: $base_font_color;
@@ -41,9 +41,7 @@ body {
   left: 0;
   width: 100%;
   height: $header_height;
-  background-color: #FFFFFF;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+  background: url("../img/bg_header.png") repeat-x 0 0;
   font-size: 1.2em;
 
   .contents {
