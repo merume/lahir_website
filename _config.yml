@@ -25,3 +25,6 @@ js:
     fixed.js:
       files:
         - lib/fixed.js
+    index.html.js:
+      files:
+        - index.html.js

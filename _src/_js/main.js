@@ -1,5 +1,3 @@
-$(document).ready(function(){
-  $(function(){
-    $('#maximage').maximage();
-  });
+$(function(){
+  $(document).ready(function(){ $('#maximage').maximage(); });
 });
