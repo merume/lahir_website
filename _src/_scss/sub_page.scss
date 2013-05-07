@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/****************************************************
+ * Sub Page Layout
+****************************************************/
+$radius-size: 6px;
+
+#maincontent{
+  padding-top: 100px;
+
+  .contents{
+    padding: 5px;
+    border-radius: $radius-size;          /* CSS3草案 */ 
+    -webkit-border-radius: $radius-size;  /* Safari,Google Chrome用 */ 
+    -moz-border-radius: $radius-size;     /* Firefox用 */ 
+    background-color: #FFF;
+  }
+}
