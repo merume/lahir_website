@@ -3,9 +3,22 @@
 /****************************************************
  * Sub Page Layout
 ****************************************************/
+h3{
+  height: 35px;
+  padding: 0 10px;
+  border-bottom: 1px solid #D3D3D3;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: normal;
+
+  i{
+    margin-right: 5px;
+  }
+}
+
 #maincontent {
   position: relative;
-  top:120px;
+  top: 120px;
   overflow: hidden;
   
 
@@ -13,9 +26,6 @@
     width: 850px;
     margin: 0 auto;
 
-    h2{
-      text-align: center;
-    }
     .text-block {
       width: 650px;
       margin: 20px auto 30px;
