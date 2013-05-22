@@ -16,7 +16,8 @@ ul { list-style: none;}
 ol { margin: 0px; padding: 0px; list-style-position: inside;}
 table { border-collapse: collapse; border-spacing: 0; font-size: 1.2em;}
 a{ color: $base_font_color; text-decoration: none;}
-a:active, a:focus{ outline: 0;}
+a:active, a:focus{ outline: 0; text-decoration: none;}
+a:hover{text-decoration: none;}
 html, body { _height: 100%; _overflow: auto;}
 body {
   margin: 0;
@@ -31,7 +32,10 @@ body {
  * Public Sector
 ****************************************************/
 .red{color: #DC143C;}
+.darkorange {color: #FF8C00;}
+
 .ml-05{margin-left: 5px;}
+.mr-05{margin-right: 5px;}
 .mb-10{margin-bottom: 10px;}
 
 /****************************************************

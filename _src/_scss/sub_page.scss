@@ -3,10 +3,12 @@
 /****************************************************
  * Sub Page Layout
 ****************************************************/
-h3{
+$text_font_color: #D3D3D3; 
+
+h3 {
   height: 35px;
   padding: 0 10px;
-  border-bottom: 1px solid #D3D3D3;
+  border-bottom: 1px solid $text_font_color;
   text-align: left;
   font-size: 1.5em;
   font-weight: normal;
@@ -21,10 +23,16 @@ h3{
   top: 120px;
   overflow: hidden;
   
-
   .contents {
     width: 850px;
     margin: 0 auto;
+
+    a { color: #FFD700;}
+    a:hover {
+      position: relative;
+      top: 1px;
+      left: 1px;
+    }
 
     .text-block {
       width: 650px;
@@ -32,7 +40,7 @@ h3{
       padding: 30px 50px;
       background: url("../img/bg_context.png") no-repeat bottom right;
       font-size: 1.1em;
-      color: #D3D3D3;
+      color: $text_font_color;
     }
   }
 }
