@@ -1,7 +1,60 @@
 @charset "UTF-8";
 #concept, #salon {
-  line-height: 2;
+  line-height: 1.5;
 
-  p {margin-bottom: 15px;}
+  p {
+    margin: 0 10px 15px;
+    font-size: 1.2em;
+  }
+}
+#salon{
+  #salon_img{
+    
+    margin: 30px 0 10px 20px;
+
+    text-align: center;
+    div.photo {
+      float: left;
+      margin: 0 20px 25px 0;
+      border: 1px solid #DCDCDC;
+      padding: 1px;
+      background-color: #000000;
+
+      a:hover {
+        position: static;
+        top: 0;
+        left: 0;
+      }
+      img {
+        width: 186px;
+      }
+    }
+    div.photo:hover{
+      position: relative;
+      top: 1px;
+      left: 1px;
+    }
+  }
+}
+
+#access {
+  div#map-image{text-align: center;}
+  div#googlemap{
+    margin-right: 30px;
+    text-align: right;
+  }
+  p#address {
+    width: 540px;
+    margin: 25px auto 25px;
+
+    img#address_logo {
+      float: left;
+      margin-right: 20px;
+    }
+    span#shop_name {
+      font-size: 1.15em;
+    }
+    span#shop_subname {font-size: 0.8em;}
+  }
 }
 
