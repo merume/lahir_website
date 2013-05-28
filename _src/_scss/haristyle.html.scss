@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+#maincontent .contents .text-block{
+  padding: 45px 40px 30px 60px;
+}
+
+#haristyle{
+  text-align: left;
+
+  .style-block{
+    float: left;
+    margin: 0 20px 20px 0;
+
+    .photo {
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .stylist{
+      margin: 3px auto 0;
+      width: 125px;
+
+
+      .title{
+        display: block;
+        float: left;
+        width: 43px;
+      }
+    }
+  }
+}
