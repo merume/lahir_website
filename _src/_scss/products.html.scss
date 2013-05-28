@@ -9,6 +9,7 @@
   }
   table.product{
     margin: 0 15px 15px;
+    width: 615px;
     font-size: 1.0em;
 
     .price {
@@ -16,11 +17,11 @@
       color: #FF8000;
       font-weight: bold;
     }
+    td { vertical-align: top;}
 
     td.image-box{
       width: 165px;
       text-align: right;
-      vertical-align: top;
 
       div.photo{
         float: right;
