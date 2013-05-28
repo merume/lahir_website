@@ -27,6 +27,11 @@ h3 {
     width: 850px;
     margin: 0 auto;
 
+    h2 {
+      width: 750px;
+      margin: 0 auto;
+    }
+
     a { color: #FFD700;}
     a:hover {
       position: relative;
@@ -36,7 +41,7 @@ h3 {
 
     .text-block {
       width: 650px;
-      margin: 20px auto 30px;
+      margin: 10px auto 30px;
       padding: 30px 50px;
       background: url("../img/bg_context.png") no-repeat bottom right;
       font-size: 1.1em;
