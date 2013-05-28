@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+form {
+  margin: 15px 35px 0;
+}
+
+#contact {
+  #contact-message{
+    margin: 0 20px 15px;
+    line-height: 1.5;
+    font-size: 1.2em;
+  }
+  #contact-tel{
+    margin: 15px 35px 25px;
+  }
+  table{
+    margin-top: 15px;
+    font-size: 1.0em;
+  }
+  th, td{
+    text-align: left;
+    vertical-align: top;    
+  }
+
+  th{
+    width: 130px;
+    padding-top: 6px; 
+    font-weight: normal;
+  }
+  input, select, textarea{
+    font-size: 1.0em;
+    outline: none;
+  }
+  textarea{
+    width: 400px;
+    height: 180px;
+  }
+  div.submit-button{
+    margin: 20px 0 10px;
+    text-align: center;
+  }
+  button#submit{
+    letter-spacing: 0.5em;
+    font-size: 1.2em;
+  }
+}

@@ -25,6 +25,19 @@ js:
     fixed.js:
       files:
         - lib/fixed.js
+    jquery.fancybox-1.3.4.pack.js:
+      files:
+        - lib/jquery.fancybox-1.3.4.pack.js
+    jquery.mousewheel-3.0.4.pack.js:
+      files:
+        - lib/jquery.mousewheel-3.0.4.pack.js
+
     index.html.js:
       files:
         - index.html.js
+    products.html.js:
+      files:
+        - products.html.js
+    about_us.html.js:
+      files:
+        - about_us.html.js

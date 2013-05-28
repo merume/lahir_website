@@ -4,5 +4,60 @@ title: コンタクト
 id: contact
 ---
 
-<h1><img src="img/{{page.id}}/page_title.png" alt="Contact"></h1>
-<div>コンタクト</div>
+<h2><img src="img/{{page.id}}/page_title.png" alt="Contact"></h2>
+<div id="contact" class="text-block">
+  <div id="contact-message">
+    <p>
+      hair supreme Lahir へのお問い合わせはこちらからお願いいたします。<br />
+      メニューや料金、ヘアスタイル、ご予約など お気軽にお問合せください。
+    </p>
+  </div>
+  <h3><i class="icon-phone"></i>お電話でのお問合せ</h3>
+  <div id="contact-tel">
+    <p class="mb-10"><img src="img/{{page.id}}/tel_contact.png" /></p>
+    <p>
+      受付時間：平日 11：00 ～ 19：30 日祝 10：00 ～ 17：30<br />
+      <span>※ 火曜日は定休日となっております。</span>
+    </p>
+  </div>
+  <h3><i class="icon-envelope-alt"></i>メールフォームでのお問合せ</h3>
+  <form>
+    <div>
+      <p>
+        必要項目を入力の上【 確認画面へ進む 】ボタンを押してください。<br />
+        <span class="red">※</span>のマークのある箇所は必須項目です。
+      </p>
+    </div>
+    <table>
+      <tr>
+        <th>お名前<span class="ml-05 red">※</span></th>
+        <td><input id="name" class="input-large" name="name" type="text" /></td>
+      </tr>
+      <tr>
+        <th>電話番号</th>
+        <td><input id="tel" class="input-medium" name="tel" type="text" /></td>
+      </tr>
+      <tr>
+        <th>メールアドレス<span class="ml-05 red">※</span></th>
+        <td><input id="mail" class="input-xlarge" name="mail" type="text" /></td>
+      </tr>
+      <tr>
+        <th>お問合せ項目</th>
+        <td>
+          <select>
+            <option>ご予約・営業時間について</option>
+            <option>ヘアについて</option>
+            <option>その他</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>お問合せ内容<span class="ml-05 red">※</span></th>
+        <td><textarea></textarea></td>
+      </tr>
+    </table>
+    <div class="submit-button">
+      <button id="submit" class="btn btn-primary" type="button">確認画面へ進む</button>
+    </div>
+  </form>
+</div>
