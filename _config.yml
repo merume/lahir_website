@@ -35,6 +35,9 @@ js:
     index.html.js:
       files:
         - index.html.js
+    haristyle.html.js:
+      files:
+        - haristyle.html.js
     products.html.js:
       files:
         - products.html.js

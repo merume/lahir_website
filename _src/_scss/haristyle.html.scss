@@ -1,0 +1,92 @@
+@charset "UTF-8";
+$border-color: #808080;
+
+#maincontent .contents .text-block{
+  padding: 45px 40px 30px 60px;
+}
+
+#haristyle{
+  text-align: left;
+
+  .style-block{
+    float: left;
+    margin: 0 20px 10px 0;
+
+    .photo {
+      height: 200px;
+      overflow: hidden;
+    }
+    .stylist-block {
+      height: 45px;
+      .stylist{
+        margin: 3px auto 0;
+        width: 125px;
+        .title {
+          display: block;
+          float: left;
+          width: 43px;
+        }
+      }
+    }
+  }
+
+  #style_catalog{
+    display: none;
+  }
+
+}
+
+table.hair-catalog{
+  width: 680px;
+  border: 1px solid $border-color;
+  background-color: #FAFAFA;
+
+  td{ padding: 10px; }
+  td.catalog-photo {
+    width: 45%;
+    text-align: center;
+    vertical-align: middle;
+
+    img {
+      padding: 1px;
+      border: 1px solid $border-color;
+    }
+  }
+
+  td.catalog-context {
+    text-align: left;
+    vertical-align: top;
+    color: #333333;
+
+    .title {
+      color: #FF8C00;
+      font-size: 1.15em;
+      font-weight: bold;
+    }
+    .context {
+      height: 125px;
+      margin: 5px 0;
+      overflow: auto;
+      font-size: 0.9em;
+    }
+    .catalog-stylist{
+      text-align: right;
+
+      .stylist {
+        float: right;
+        margin: 0 10px;
+      }
+    }
+    .thumbnail_photo {
+      clear: both;
+      text-align: center;
+
+      img {
+        margin: 5px;
+        padding: 1px;
+        vertical-align: top;
+        border: 1px solid $border-color;
+      }
+    }
+  }
+}
