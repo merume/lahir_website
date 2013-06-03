@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#maincontent .contents .text-block{
+  padding: 45px 35px 30px 65px;
+}
+
+#stylist {
+
+  .stylist-block {
+    float: left;
+    margin: 0 30px 40px 0;
+    text-align: center;
+
+    .photo{
+      height: 190px;
+      overflow: hidden;
+    }
+    
+    .name{
+      margin: 5px 0 0;
+      
+      color: #FF8C00;
+    }
+  }
+}
