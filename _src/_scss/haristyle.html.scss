@@ -30,9 +30,7 @@ $border-color: #808080;
     }
   }
 
-  #style_catalog{
-    display: none;
-  }
+  #style_catalog { display: none; }
 
 }
 
@@ -41,7 +39,7 @@ table.hair-catalog{
   border: 1px solid $border-color;
   background-color: #FAFAFA;
 
-  td{ padding: 10px; }
+  td { padding: 10px; }
   td.catalog-photo {
     width: 45%;
     text-align: center;
