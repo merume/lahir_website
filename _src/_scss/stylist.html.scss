@@ -1,4 +1,6 @@
 @charset "UTF-8";
+$border-color: #808080;
+$darkorange: #FF8C00;
 
 #maincontent .contents .text-block{
   padding: 45px 35px 30px 65px;
@@ -16,10 +18,95 @@
       overflow: hidden;
     }
     
-    .name{
-      margin: 5px 0 0;
-      
-      color: #FF8C00;
+    .name { margin: 5px 0 0; }
+    .name a { color: $darkorange; }
+  }
+
+  #stylist-catalog { display: none;}
+}
+
+table.stylist-profile {
+  width: 710px;
+  border: 1px solid $border-color;
+  background-color: #FAFAFA;
+
+  td {
+    padding: 10px;
+    vertical-align: top;
+  }
+
+  td.stylist-photo {
+    width: 200px;
+    text-align: center;
+  }
+
+  .profile{
+    color: $darkorange;
+    font-size: 1.15em;
+    font-weight: bold;
+
+    .position{ margin-right: 5px;}
+    .name{ margin-right: 2px}
+    .rome-name{
+      color: #111111;
+      font-size: 0.9em;
+      font-weight: normal;
+    }
+  }
+
+  .context{
+    margin: 10px 15px 0;
+    a { color: #000080; }
+    a:hover{
+      position: relative;
+      top: 1px;
+      left: 1px;
+    }
+  }
+
+  .photo{
+    margin: 15px 0 0;
+    
+    img {
+      padding: 1px;
+      width: 160px;
+      border: 1px solid $border-color;
+    }
+  }
+
+  .schedule {
+    .title { font-size: 1.1em; }
+    table { border: 1px solid $border-color; }
+    td {
+      padding: 3px;
+      border: 1px solid $border-color;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 0.87em;
+    }
+    tr.holiday{
+      color: #FF6347;
+      font-weight: bold;
+    }
+
+    .sun {
+      background-color: #FFF0F5;
+      color: #FF0000;
+    }
+    .sat { 
+      background-color: #E0FFFF;
+      color: #0000FF; 
+    }
+
+    .icon {
+      margin: 3px 0 0;
+      text-align: left;
+
+      span {
+        margin-right: 10px;
+        color: #FF6347;
+        font-weight: bold;
+      }
     }
   }
 }
